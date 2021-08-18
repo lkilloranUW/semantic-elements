@@ -1,11 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
+
   <head>
     <meta charset="utf-8">
     <title>My Semantic Website</title>
   </head>
-  <body>
 
+  <body>
     <header>
       <img src="logo.png" alt="logo image">
       <h1>Welcome to my semantic website!</h1>
@@ -15,43 +16,46 @@
         <a href="nav-link3.html">Nav Link 3</a>
       </nav>
     </header>
+    <main>
+      <section class="intro">
+        <h2>What are Semantic Elements?</h2>
+          <p><em>Lorem ipsum dolor sit amet,</em> consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+          <blockquote cite="https://codepen.io/mi-lee/post/an-overview-of-html5-semantics">
+            Simply put, a semantic element clearly describes its meaning to both the browser and developer - for example, instead of div and span, we can use better alternatives such as form, table, and img.
+          </blockquote>
+          <p><strong>Duis aute irure dolor in reprehenderit</strong> in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia <br><mark>deserunt mollit anim id est laborum.</mark></p>
+      </section>
 
-    <section class="intro">
-      <h2>What are Semantic Elements?</h2>
-      <p>
-      </p>
-     </section>
+      <section class="current-events">
+        <h2>News and Ideas <time datetime="2021">2021</time></h2>
 
-     <section class="current-events">
-      <h2>News and Ideas <time> </h2>
+        <article class="news">
+           <h3>News</h3>
+           <p>Watch this video for the latest news about semantic websites:</p>
+           <video src="videofile.ogg">videofile</video>
+         </article>
 
-      <article class="news">
-        <h3>News</h3>
-        <p>Watch this video for the latest news about semantic websites:</p>
-        <video src="videofile.ogg">
-        </video>
-      </article>
+         <article class="opinion">
+           <h3>Ideas</h3>
+           <p>Listen to this podcast about learning HTML5:</p>
+           <audio src="audiofile.mp3">audiofile</audio>
+         </article>
+       </section>
+     </main>
 
-      <article class="opinion">
-        <h3>Ideas</h3>
-        <p>Listen to this podcast about learning HTML5:</p>
-        <audio src="audiofile.mp3">
-        </audio>
-      </article>
-    </section>
+     <aside class="more-info">
+       <h4>More information about HTML5:</h4>
+       <ul>
+         <li><a href="link4.html">link 4</a></li>
+         <li><a href="link5.html">link 5</a></li>
+         <li><a href="link6.html">link 6</a></li>
+       </ul>
+     </aside>
 
-    <aside class="more-info">
-      <h2>More information</h2>
-      <ol>
-        <li>link 4</li>
-        <li>link 5</li>
-        <li>link 6</li>
-      </ol>
-    </aside>
+     <footer>
+       <p>copyright 2021 Laura Killoran</p>
+       <address><a href="mailto:lkillora@uw.edu">lkillora@uw.edu</a></address>
+     </footer>
 
-    <footer>
-      <p>copyright 2021</p>
-    </footer>
-  </body>
-
+   </body>
 </html>
